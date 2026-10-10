@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} Главная страница {% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Про нас</h1>
+        <p>На нашем сайте представлена простая информация, что может вам помочь в решении любой проблемы, скорее всего :)</p>
+        <a href="{% url 'home' %}" class="btn-link">На главную страницу</a>
+    </div>
+{% endblock %}
